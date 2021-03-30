@@ -1,0 +1,1532 @@
+文件夹 PATH 列表
+卷序列号为 12C7-D373
+E:.
+│  .gitignore
+│  build.gradle
+│  list.txt
+│  proguard-rules.pro
+│  
+├─build
+│  ├─generated
+│  │  ├─ap_generated_sources
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─res
+│  │  │  ├─pngs
+│  │  │  │  ├─debug
+│  │  │  │  │  ├─drawable-anydpi-v21
+│  │  │  │  │  │      ic_launcher_background.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─drawable-anydpi-v24
+│  │  │  │  │  │      ic_launcher_foreground.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─drawable-hdpi
+│  │  │  │  │  │      ic_launcher_background.png
+│  │  │  │  │  │      
+│  │  │  │  │  ├─drawable-ldpi
+│  │  │  │  │  │      ic_launcher_background.png
+│  │  │  │  │  │      
+│  │  │  │  │  ├─drawable-mdpi
+│  │  │  │  │  │      ic_launcher_background.png
+│  │  │  │  │  │      
+│  │  │  │  │  ├─drawable-xhdpi
+│  │  │  │  │  │      ic_launcher_background.png
+│  │  │  │  │  │      
+│  │  │  │  │  ├─drawable-xxhdpi
+│  │  │  │  │  │      ic_launcher_background.png
+│  │  │  │  │  │      
+│  │  │  │  │  └─drawable-xxxhdpi
+│  │  │  │  │          ic_launcher_background.png
+│  │  │  │  │          
+│  │  │  │  └─release
+│  │  │  │      ├─drawable-anydpi-v21
+│  │  │  │      │      ic_launcher_background.xml
+│  │  │  │      │      
+│  │  │  │      ├─drawable-anydpi-v24
+│  │  │  │      │      ic_launcher_foreground.xml
+│  │  │  │      │      
+│  │  │  │      ├─drawable-hdpi
+│  │  │  │      │      ic_launcher_background.png
+│  │  │  │      │      
+│  │  │  │      ├─drawable-ldpi
+│  │  │  │      │      ic_launcher_background.png
+│  │  │  │      │      
+│  │  │  │      ├─drawable-mdpi
+│  │  │  │      │      ic_launcher_background.png
+│  │  │  │      │      
+│  │  │  │      ├─drawable-xhdpi
+│  │  │  │      │      ic_launcher_background.png
+│  │  │  │      │      
+│  │  │  │      ├─drawable-xxhdpi
+│  │  │  │      │      ic_launcher_background.png
+│  │  │  │      │      
+│  │  │  │      └─drawable-xxxhdpi
+│  │  │  │              ic_launcher_background.png
+│  │  │  │              
+│  │  │  └─resValues
+│  │  │      ├─debug
+│  │  │      └─release
+│  │  └─source
+│  │      └─buildConfig
+│  │          ├─debug
+│  │          │  └─com
+│  │          │      └─xinyu
+│  │          │          └─cumtcpdaily
+│  │          │                  BuildConfig.java
+│  │          │                  
+│  │          └─release
+│  │              └─com
+│  │                  └─xinyu
+│  │                      └─cumtcpdaily
+│  │                              BuildConfig.java
+│  │                              
+│  ├─intermediates
+│  │  ├─aar_metadata_check
+│  │  │  ├─debug
+│  │  │  └─release
+│  │  ├─annotation_processor_list
+│  │  │  ├─debug
+│  │  │  │      annotationProcessors.json
+│  │  │  │      
+│  │  │  └─release
+│  │  │          annotationProcessors.json
+│  │  │          
+│  │  ├─compatible_screen_manifest
+│  │  │  ├─debug
+│  │  │  │      output-metadata.json
+│  │  │  │      
+│  │  │  └─release
+│  │  │          output-metadata.json
+│  │  │          
+│  │  ├─compile_and_runtime_not_namespaced_r_class_jar
+│  │  │  ├─debug
+│  │  │  │      R.jar
+│  │  │  │      
+│  │  │  └─release
+│  │  │          R.jar
+│  │  │          
+│  │  ├─compressed_assets
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─data_binding_layout_info_type_merge
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─dex
+│  │  │  ├─debug
+│  │  │  │  └─mergeDexDebug
+│  │  │  │          classes.dex
+│  │  │  │          
+│  │  │  └─release
+│  │  │      └─mergeDexRelease
+│  │  │              classes.dex
+│  │  │              
+│  │  ├─dex_archive_input_jar_hashes
+│  │  │  ├─debug
+│  │  │  │      out
+│  │  │  │      
+│  │  │  └─release
+│  │  │          out
+│  │  │          
+│  │  ├─dex_number_of_buckets_file
+│  │  │  ├─debug
+│  │  │  │      out
+│  │  │  │      
+│  │  │  └─release
+│  │  │          out
+│  │  │          
+│  │  ├─duplicate_classes_check
+│  │  │  ├─debug
+│  │  │  └─release
+│  │  ├─external_file_lib_dex_archives
+│  │  │  ├─debug
+│  │  │  └─release
+│  │  ├─external_libs_dex
+│  │  │  ├─debug
+│  │  │  │  └─mergeExtDexDebug
+│  │  │  │          classes.dex
+│  │  │  │          
+│  │  │  └─release
+│  │  │      └─mergeExtDexRelease
+│  │  │              classes.dex
+│  │  │              
+│  │  ├─external_libs_dex_archive
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─external_libs_dex_archive_with_artifact_transforms
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─incremental
+│  │  │  ├─debug-mergeJavaRes
+│  │  │  │  │  merge-state
+│  │  │  │  │  
+│  │  │  │  └─zip-cache
+│  │  │  │          +_jlO9wrLnK6iBVkrg5IX8uoNKo=
+│  │  │  │          34EVPhCkbxajGyF0wj3JIvjbMfM=
+│  │  │  │          4vYWp5fvNzO8N3Nh6HuqqlvDgLI=
+│  │  │  │          6cTDttdoxwn2RlQ+Dat4YVAE0fc=
+│  │  │  │          7sshomFINlUgZF+2Uifzyqe_4Zw=
+│  │  │  │          AmMdXMglL7DrKEZErNPlojPButs=
+│  │  │  │          B5p3XCuAxs3rDsQEdHyNw0NaKBA=
+│  │  │  │          BAcwddMAcxao6MpYrNzayrPH3Cs=
+│  │  │  │          bICw28JSx4lvuodL6yMquHU2u7A=
+│  │  │  │          BstVs2ADbPTB__WMiTTF8+gtYhU=
+│  │  │  │          DKDiinv5utYlX2gj90sx_bfQXds=
+│  │  │  │          DohW3eWS8Ko4zQRY95iedbL3poI=
+│  │  │  │          FC6qESw3A4hze1lnd2j_7TTWqbI=
+│  │  │  │          FwZeUV6s0YlFWxGZcPj5VdiBdnw=
+│  │  │  │          G8VikZ8YyB0zKJ7pD8YlFAEOqaI=
+│  │  │  │          Hc+KE3nQ_Gwhn4Qm_FUShBkL+Jc=
+│  │  │  │          I+MsoO62huf37W1dabr1Xs4cqi8=
+│  │  │  │          liZ1pYxd_LS1_T0uZAUveASewUg=
+│  │  │  │          LoO1Z7Ye+mOzwNIDpC7CIFrU4f4=
+│  │  │  │          lPlpgEgOGHGMoT+ZRjm+gueWbAE=
+│  │  │  │          MdHEv6fuu8S2cYZhT1obJKNrho0=
+│  │  │  │          Q+RXDQQ8hdsWhIa+M3PksGjJTy8=
+│  │  │  │          q1GVc9pXxqFtc6aIHKjd62+FZyM=
+│  │  │  │          Qq+bub17pa3PH5sWNXNopG9gYKA=
+│  │  │  │          r3bAxDmY_46WObeAub7LAqH4sxE=
+│  │  │  │          TCO6F7l0lV1d+Qjq2+NycSn1Ga0=
+│  │  │  │          U7KkVyRk0vTRNvQe+4BB0SDZ6Ts=
+│  │  │  │          Uiqy+aLokqA+ODCSs1Cksg0uPPw=
+│  │  │  │          UJoiFG8uUsNvt2k7NvYqB0OXWNU=
+│  │  │  │          XLSqW5BX2qBHUNNEPPT1+3D0L+w=
+│  │  │  │          xVDlN1swRPAOMkxv7Rs3SvSpWV0=
+│  │  │  │          yLuWTvDM23bnJ4ohFFiYXFTmdOk=
+│  │  │  │          ZT7_SuI+stwzEPWNNQXqtsJIP6U=
+│  │  │  │          
+│  │  │  ├─debug-mergeNativeLibs
+│  │  │  │  │  merge-state
+│  │  │  │  │  
+│  │  │  │  └─zip-cache
+│  │  │  │          +_jlO9wrLnK6iBVkrg5IX8uoNKo=
+│  │  │  │          34EVPhCkbxajGyF0wj3JIvjbMfM=
+│  │  │  │          4vYWp5fvNzO8N3Nh6HuqqlvDgLI=
+│  │  │  │          6cTDttdoxwn2RlQ+Dat4YVAE0fc=
+│  │  │  │          7sshomFINlUgZF+2Uifzyqe_4Zw=
+│  │  │  │          AmMdXMglL7DrKEZErNPlojPButs=
+│  │  │  │          B5p3XCuAxs3rDsQEdHyNw0NaKBA=
+│  │  │  │          BAcwddMAcxao6MpYrNzayrPH3Cs=
+│  │  │  │          bICw28JSx4lvuodL6yMquHU2u7A=
+│  │  │  │          BstVs2ADbPTB__WMiTTF8+gtYhU=
+│  │  │  │          DKDiinv5utYlX2gj90sx_bfQXds=
+│  │  │  │          DohW3eWS8Ko4zQRY95iedbL3poI=
+│  │  │  │          FC6qESw3A4hze1lnd2j_7TTWqbI=
+│  │  │  │          FwZeUV6s0YlFWxGZcPj5VdiBdnw=
+│  │  │  │          G8VikZ8YyB0zKJ7pD8YlFAEOqaI=
+│  │  │  │          Hc+KE3nQ_Gwhn4Qm_FUShBkL+Jc=
+│  │  │  │          I+MsoO62huf37W1dabr1Xs4cqi8=
+│  │  │  │          liZ1pYxd_LS1_T0uZAUveASewUg=
+│  │  │  │          LoO1Z7Ye+mOzwNIDpC7CIFrU4f4=
+│  │  │  │          lPlpgEgOGHGMoT+ZRjm+gueWbAE=
+│  │  │  │          MdHEv6fuu8S2cYZhT1obJKNrho0=
+│  │  │  │          Q+RXDQQ8hdsWhIa+M3PksGjJTy8=
+│  │  │  │          q1GVc9pXxqFtc6aIHKjd62+FZyM=
+│  │  │  │          Qq+bub17pa3PH5sWNXNopG9gYKA=
+│  │  │  │          r3bAxDmY_46WObeAub7LAqH4sxE=
+│  │  │  │          TCO6F7l0lV1d+Qjq2+NycSn1Ga0=
+│  │  │  │          U7KkVyRk0vTRNvQe+4BB0SDZ6Ts=
+│  │  │  │          Uiqy+aLokqA+ODCSs1Cksg0uPPw=
+│  │  │  │          UJoiFG8uUsNvt2k7NvYqB0OXWNU=
+│  │  │  │          XLSqW5BX2qBHUNNEPPT1+3D0L+w=
+│  │  │  │          xVDlN1swRPAOMkxv7Rs3SvSpWV0=
+│  │  │  │          yLuWTvDM23bnJ4ohFFiYXFTmdOk=
+│  │  │  │          ZT7_SuI+stwzEPWNNQXqtsJIP6U=
+│  │  │  │          
+│  │  │  ├─mergeDebugAssets
+│  │  │  │      merger.xml
+│  │  │  │      
+│  │  │  ├─mergeDebugJniLibFolders
+│  │  │  │      merger.xml
+│  │  │  │      
+│  │  │  ├─mergeDebugResources
+│  │  │  │  │  compile-file-map.properties
+│  │  │  │  │  merger.xml
+│  │  │  │  │  
+│  │  │  │  ├─merged.dir
+│  │  │  │  └─stripped.dir
+│  │  │  ├─mergeDebugShaders
+│  │  │  │      merger.xml
+│  │  │  │      
+│  │  │  ├─mergeReleaseAssets
+│  │  │  │      merger.xml
+│  │  │  │      
+│  │  │  ├─mergeReleaseJniLibFolders
+│  │  │  │      merger.xml
+│  │  │  │      
+│  │  │  ├─mergeReleaseResources
+│  │  │  │  │  compile-file-map.properties
+│  │  │  │  │  merger.xml
+│  │  │  │  │  
+│  │  │  │  ├─merged.dir
+│  │  │  │  │  ├─values
+│  │  │  │  │  │      values.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-af
+│  │  │  │  │  │      values-af.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-am
+│  │  │  │  │  │      values-am.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ar
+│  │  │  │  │  │      values-ar.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-as
+│  │  │  │  │  │      values-as.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-az
+│  │  │  │  │  │      values-az.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-b+sr+Latn
+│  │  │  │  │  │      values-b+sr+Latn.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-be
+│  │  │  │  │  │      values-be.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-bg
+│  │  │  │  │  │      values-bg.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-bn
+│  │  │  │  │  │      values-bn.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-bs
+│  │  │  │  │  │      values-bs.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ca
+│  │  │  │  │  │      values-ca.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-cs
+│  │  │  │  │  │      values-cs.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-da
+│  │  │  │  │  │      values-da.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-de
+│  │  │  │  │  │      values-de.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-el
+│  │  │  │  │  │      values-el.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-en-rAU
+│  │  │  │  │  │      values-en-rAU.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-en-rCA
+│  │  │  │  │  │      values-en-rCA.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-en-rGB
+│  │  │  │  │  │      values-en-rGB.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-en-rIN
+│  │  │  │  │  │      values-en-rIN.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-en-rXC
+│  │  │  │  │  │      values-en-rXC.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-es
+│  │  │  │  │  │      values-es.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-es-rUS
+│  │  │  │  │  │      values-es-rUS.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-et
+│  │  │  │  │  │      values-et.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-eu
+│  │  │  │  │  │      values-eu.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-fa
+│  │  │  │  │  │      values-fa.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-fi
+│  │  │  │  │  │      values-fi.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-fr
+│  │  │  │  │  │      values-fr.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-fr-rCA
+│  │  │  │  │  │      values-fr-rCA.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-gl
+│  │  │  │  │  │      values-gl.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-gu
+│  │  │  │  │  │      values-gu.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-h360dp-land-v13
+│  │  │  │  │  │      values-h360dp-land-v13.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-h480dp-land-v13
+│  │  │  │  │  │      values-h480dp-land-v13.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-h720dp-v13
+│  │  │  │  │  │      values-h720dp-v13.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-hdpi-v4
+│  │  │  │  │  │      values-hdpi-v4.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-hi
+│  │  │  │  │  │      values-hi.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-hr
+│  │  │  │  │  │      values-hr.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-hu
+│  │  │  │  │  │      values-hu.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-hy
+│  │  │  │  │  │      values-hy.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-in
+│  │  │  │  │  │      values-in.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-is
+│  │  │  │  │  │      values-is.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-it
+│  │  │  │  │  │      values-it.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-iw
+│  │  │  │  │  │      values-iw.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ja
+│  │  │  │  │  │      values-ja.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ka
+│  │  │  │  │  │      values-ka.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-kk
+│  │  │  │  │  │      values-kk.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-km
+│  │  │  │  │  │      values-km.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-kn
+│  │  │  │  │  │      values-kn.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ko
+│  │  │  │  │  │      values-ko.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ky
+│  │  │  │  │  │      values-ky.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-land
+│  │  │  │  │  │      values-land.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-large-v4
+│  │  │  │  │  │      values-large-v4.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ldltr-v21
+│  │  │  │  │  │      values-ldltr-v21.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-lo
+│  │  │  │  │  │      values-lo.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-lt
+│  │  │  │  │  │      values-lt.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-lv
+│  │  │  │  │  │      values-lv.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-mk
+│  │  │  │  │  │      values-mk.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ml
+│  │  │  │  │  │      values-ml.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-mn
+│  │  │  │  │  │      values-mn.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-mr
+│  │  │  │  │  │      values-mr.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ms
+│  │  │  │  │  │      values-ms.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-my
+│  │  │  │  │  │      values-my.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-nb
+│  │  │  │  │  │      values-nb.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ne
+│  │  │  │  │  │      values-ne.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-night-v8
+│  │  │  │  │  │      values-night-v8.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-nl
+│  │  │  │  │  │      values-nl.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-or
+│  │  │  │  │  │      values-or.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-pa
+│  │  │  │  │  │      values-pa.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-pl
+│  │  │  │  │  │      values-pl.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-port
+│  │  │  │  │  │      values-port.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-pt
+│  │  │  │  │  │      values-pt.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-pt-rBR
+│  │  │  │  │  │      values-pt-rBR.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-pt-rPT
+│  │  │  │  │  │      values-pt-rPT.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ro
+│  │  │  │  │  │      values-ro.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ru
+│  │  │  │  │  │      values-ru.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-si
+│  │  │  │  │  │      values-si.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sk
+│  │  │  │  │  │      values-sk.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sl
+│  │  │  │  │  │      values-sl.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-small-v4
+│  │  │  │  │  │      values-small-v4.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sq
+│  │  │  │  │  │      values-sq.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sr
+│  │  │  │  │  │      values-sr.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sv
+│  │  │  │  │  │      values-sv.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sw
+│  │  │  │  │  │      values-sw.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-sw600dp-v13
+│  │  │  │  │  │      values-sw600dp-v13.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ta
+│  │  │  │  │  │      values-ta.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-te
+│  │  │  │  │  │      values-te.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-th
+│  │  │  │  │  │      values-th.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-tl
+│  │  │  │  │  │      values-tl.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-tr
+│  │  │  │  │  │      values-tr.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-uk
+│  │  │  │  │  │      values-uk.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-ur
+│  │  │  │  │  │      values-ur.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-uz
+│  │  │  │  │  │      values-uz.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v16
+│  │  │  │  │  │      values-v16.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v17
+│  │  │  │  │  │      values-v17.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v18
+│  │  │  │  │  │      values-v18.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v21
+│  │  │  │  │  │      values-v21.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v22
+│  │  │  │  │  │      values-v22.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v23
+│  │  │  │  │  │      values-v23.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v24
+│  │  │  │  │  │      values-v24.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v25
+│  │  │  │  │  │      values-v25.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v26
+│  │  │  │  │  │      values-v26.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-v28
+│  │  │  │  │  │      values-v28.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-vi
+│  │  │  │  │  │      values-vi.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-w360dp-port-v13
+│  │  │  │  │  │      values-w360dp-port-v13.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-w480dp-port-v13
+│  │  │  │  │  │      values-w480dp-port-v13.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-watch-v20
+│  │  │  │  │  │      values-watch-v20.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-watch-v21
+│  │  │  │  │  │      values-watch-v21.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-xlarge-v4
+│  │  │  │  │  │      values-xlarge-v4.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-zh-rCN
+│  │  │  │  │  │      values-zh-rCN.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-zh-rHK
+│  │  │  │  │  │      values-zh-rHK.xml
+│  │  │  │  │  │      
+│  │  │  │  │  ├─values-zh-rTW
+│  │  │  │  │  │      values-zh-rTW.xml
+│  │  │  │  │  │      
+│  │  │  │  │  └─values-zu
+│  │  │  │  │          values-zu.xml
+│  │  │  │  │          
+│  │  │  │  └─stripped.dir
+│  │  │  ├─mergeReleaseShaders
+│  │  │  │      merger.xml
+│  │  │  │      
+│  │  │  ├─packageDebug
+│  │  │  │  └─tmp
+│  │  │  │      └─debug
+│  │  │  │          │  dex-renamer-state.txt
+│  │  │  │          │  
+│  │  │  │          └─zip-cache
+│  │  │  │                  androidResources
+│  │  │  │                  javaResources0
+│  │  │  │                  
+│  │  │  ├─packageRelease
+│  │  │  │  └─tmp
+│  │  │  │      └─release
+│  │  │  │          │  dex-renamer-state.txt
+│  │  │  │          │  
+│  │  │  │          └─zip-cache
+│  │  │  │                  androidResources
+│  │  │  │                  javaResources0
+│  │  │  │                  
+│  │  │  ├─processDebugResources
+│  │  │  ├─processReleaseResources
+│  │  │  ├─release-mergeJavaRes
+│  │  │  │  │  merge-state
+│  │  │  │  │  
+│  │  │  │  └─zip-cache
+│  │  │  │          +_jlO9wrLnK6iBVkrg5IX8uoNKo=
+│  │  │  │          34EVPhCkbxajGyF0wj3JIvjbMfM=
+│  │  │  │          4vYWp5fvNzO8N3Nh6HuqqlvDgLI=
+│  │  │  │          6cTDttdoxwn2RlQ+Dat4YVAE0fc=
+│  │  │  │          7sshomFINlUgZF+2Uifzyqe_4Zw=
+│  │  │  │          AmMdXMglL7DrKEZErNPlojPButs=
+│  │  │  │          B5p3XCuAxs3rDsQEdHyNw0NaKBA=
+│  │  │  │          BAcwddMAcxao6MpYrNzayrPH3Cs=
+│  │  │  │          bICw28JSx4lvuodL6yMquHU2u7A=
+│  │  │  │          BstVs2ADbPTB__WMiTTF8+gtYhU=
+│  │  │  │          DKDiinv5utYlX2gj90sx_bfQXds=
+│  │  │  │          DohW3eWS8Ko4zQRY95iedbL3poI=
+│  │  │  │          FC6qESw3A4hze1lnd2j_7TTWqbI=
+│  │  │  │          FwZeUV6s0YlFWxGZcPj5VdiBdnw=
+│  │  │  │          G8VikZ8YyB0zKJ7pD8YlFAEOqaI=
+│  │  │  │          Hc+KE3nQ_Gwhn4Qm_FUShBkL+Jc=
+│  │  │  │          I+MsoO62huf37W1dabr1Xs4cqi8=
+│  │  │  │          liZ1pYxd_LS1_T0uZAUveASewUg=
+│  │  │  │          LoO1Z7Ye+mOzwNIDpC7CIFrU4f4=
+│  │  │  │          lPlpgEgOGHGMoT+ZRjm+gueWbAE=
+│  │  │  │          MdHEv6fuu8S2cYZhT1obJKNrho0=
+│  │  │  │          Q+RXDQQ8hdsWhIa+M3PksGjJTy8=
+│  │  │  │          q1GVc9pXxqFtc6aIHKjd62+FZyM=
+│  │  │  │          Qq+bub17pa3PH5sWNXNopG9gYKA=
+│  │  │  │          r3bAxDmY_46WObeAub7LAqH4sxE=
+│  │  │  │          TCO6F7l0lV1d+Qjq2+NycSn1Ga0=
+│  │  │  │          U7KkVyRk0vTRNvQe+4BB0SDZ6Ts=
+│  │  │  │          Uiqy+aLokqA+ODCSs1Cksg0uPPw=
+│  │  │  │          UJoiFG8uUsNvt2k7NvYqB0OXWNU=
+│  │  │  │          XLSqW5BX2qBHUNNEPPT1+3D0L+w=
+│  │  │  │          xVDlN1swRPAOMkxv7Rs3SvSpWV0=
+│  │  │  │          yLuWTvDM23bnJ4ohFFiYXFTmdOk=
+│  │  │  │          ZT7_SuI+stwzEPWNNQXqtsJIP6U=
+│  │  │  │          
+│  │  │  └─release-mergeNativeLibs
+│  │  │      │  merge-state
+│  │  │      │  
+│  │  │      └─zip-cache
+│  │  │              +_jlO9wrLnK6iBVkrg5IX8uoNKo=
+│  │  │              34EVPhCkbxajGyF0wj3JIvjbMfM=
+│  │  │              4vYWp5fvNzO8N3Nh6HuqqlvDgLI=
+│  │  │              6cTDttdoxwn2RlQ+Dat4YVAE0fc=
+│  │  │              7sshomFINlUgZF+2Uifzyqe_4Zw=
+│  │  │              AmMdXMglL7DrKEZErNPlojPButs=
+│  │  │              B5p3XCuAxs3rDsQEdHyNw0NaKBA=
+│  │  │              BAcwddMAcxao6MpYrNzayrPH3Cs=
+│  │  │              bICw28JSx4lvuodL6yMquHU2u7A=
+│  │  │              BstVs2ADbPTB__WMiTTF8+gtYhU=
+│  │  │              DKDiinv5utYlX2gj90sx_bfQXds=
+│  │  │              DohW3eWS8Ko4zQRY95iedbL3poI=
+│  │  │              FC6qESw3A4hze1lnd2j_7TTWqbI=
+│  │  │              FwZeUV6s0YlFWxGZcPj5VdiBdnw=
+│  │  │              G8VikZ8YyB0zKJ7pD8YlFAEOqaI=
+│  │  │              Hc+KE3nQ_Gwhn4Qm_FUShBkL+Jc=
+│  │  │              I+MsoO62huf37W1dabr1Xs4cqi8=
+│  │  │              liZ1pYxd_LS1_T0uZAUveASewUg=
+│  │  │              LoO1Z7Ye+mOzwNIDpC7CIFrU4f4=
+│  │  │              lPlpgEgOGHGMoT+ZRjm+gueWbAE=
+│  │  │              MdHEv6fuu8S2cYZhT1obJKNrho0=
+│  │  │              Q+RXDQQ8hdsWhIa+M3PksGjJTy8=
+│  │  │              q1GVc9pXxqFtc6aIHKjd62+FZyM=
+│  │  │              Qq+bub17pa3PH5sWNXNopG9gYKA=
+│  │  │              r3bAxDmY_46WObeAub7LAqH4sxE=
+│  │  │              TCO6F7l0lV1d+Qjq2+NycSn1Ga0=
+│  │  │              U7KkVyRk0vTRNvQe+4BB0SDZ6Ts=
+│  │  │              Uiqy+aLokqA+ODCSs1Cksg0uPPw=
+│  │  │              UJoiFG8uUsNvt2k7NvYqB0OXWNU=
+│  │  │              XLSqW5BX2qBHUNNEPPT1+3D0L+w=
+│  │  │              xVDlN1swRPAOMkxv7Rs3SvSpWV0=
+│  │  │              yLuWTvDM23bnJ4ohFFiYXFTmdOk=
+│  │  │              ZT7_SuI+stwzEPWNNQXqtsJIP6U=
+│  │  │              
+│  │  ├─javac
+│  │  │  ├─debug
+│  │  │  │  └─classes
+│  │  │  │      └─com
+│  │  │  │          └─xinyu
+│  │  │  │              └─cumtcpdaily
+│  │  │  │                      About$1.class
+│  │  │  │                      About$2.class
+│  │  │  │                      About$3.class
+│  │  │  │                      About.class
+│  │  │  │                      BuildConfig.class
+│  │  │  │                      MainActivity$1.class
+│  │  │  │                      MainActivity$2.class
+│  │  │  │                      MainActivity$3.class
+│  │  │  │                      MainActivity.class
+│  │  │  │                      MyService$1.class
+│  │  │  │                      MyService.class
+│  │  │  │                      
+│  │  │  └─release
+│  │  │      └─classes
+│  │  │          └─com
+│  │  │              └─xinyu
+│  │  │                  └─cumtcpdaily
+│  │  │                          About$1.class
+│  │  │                          About$2.class
+│  │  │                          About$3.class
+│  │  │                          About.class
+│  │  │                          BuildConfig.class
+│  │  │                          MainActivity$1.class
+│  │  │                          MainActivity$2.class
+│  │  │                          MainActivity.class
+│  │  │                          
+│  │  ├─manifest_merge_blame_file
+│  │  │  ├─debug
+│  │  │  │      manifest-merger-blame-debug-report.txt
+│  │  │  │      
+│  │  │  └─release
+│  │  │          manifest-merger-blame-release-report.txt
+│  │  │          
+│  │  ├─merged_assets
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─merged_java_res
+│  │  │  ├─debug
+│  │  │  │      out.jar
+│  │  │  │      
+│  │  │  └─release
+│  │  │          out.jar
+│  │  │          
+│  │  ├─merged_jni_libs
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─merged_manifest
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  │          AndroidManifest.xml
+│  │  │  │          
+│  │  │  └─release
+│  │  │      └─out
+│  │  │              AndroidManifest.xml
+│  │  │              
+│  │  ├─merged_manifests
+│  │  │  ├─debug
+│  │  │  │      AndroidManifest.xml
+│  │  │  │      output-metadata.json
+│  │  │  │      
+│  │  │  └─release
+│  │  │          AndroidManifest.xml
+│  │  │          output-metadata.json
+│  │  │          
+│  │  ├─merged_native_libs
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─merged_res_blame_folder
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  │      ├─multi-v2
+│  │  │  │      │      debug.json
+│  │  │  │      │      values-af.json
+│  │  │  │      │      values-am.json
+│  │  │  │      │      values-ar.json
+│  │  │  │      │      values-as.json
+│  │  │  │      │      values-az.json
+│  │  │  │      │      values-b+sr+Latn.json
+│  │  │  │      │      values-be.json
+│  │  │  │      │      values-bg.json
+│  │  │  │      │      values-bn.json
+│  │  │  │      │      values-bs.json
+│  │  │  │      │      values-ca.json
+│  │  │  │      │      values-cs.json
+│  │  │  │      │      values-da.json
+│  │  │  │      │      values-de.json
+│  │  │  │      │      values-el.json
+│  │  │  │      │      values-en-rAU.json
+│  │  │  │      │      values-en-rCA.json
+│  │  │  │      │      values-en-rGB.json
+│  │  │  │      │      values-en-rIN.json
+│  │  │  │      │      values-en-rXC.json
+│  │  │  │      │      values-es-rUS.json
+│  │  │  │      │      values-es.json
+│  │  │  │      │      values-et.json
+│  │  │  │      │      values-eu.json
+│  │  │  │      │      values-fa.json
+│  │  │  │      │      values-fi.json
+│  │  │  │      │      values-fr-rCA.json
+│  │  │  │      │      values-fr.json
+│  │  │  │      │      values-gl.json
+│  │  │  │      │      values-gu.json
+│  │  │  │      │      values-h360dp-land-v13.json
+│  │  │  │      │      values-h480dp-land-v13.json
+│  │  │  │      │      values-h720dp-v13.json
+│  │  │  │      │      values-hdpi-v4.json
+│  │  │  │      │      values-hi.json
+│  │  │  │      │      values-hr.json
+│  │  │  │      │      values-hu.json
+│  │  │  │      │      values-hy.json
+│  │  │  │      │      values-in.json
+│  │  │  │      │      values-is.json
+│  │  │  │      │      values-it.json
+│  │  │  │      │      values-iw.json
+│  │  │  │      │      values-ja.json
+│  │  │  │      │      values-ka.json
+│  │  │  │      │      values-kk.json
+│  │  │  │      │      values-km.json
+│  │  │  │      │      values-kn.json
+│  │  │  │      │      values-ko.json
+│  │  │  │      │      values-ky.json
+│  │  │  │      │      values-land.json
+│  │  │  │      │      values-large-v4.json
+│  │  │  │      │      values-ldltr-v21.json
+│  │  │  │      │      values-lo.json
+│  │  │  │      │      values-lt.json
+│  │  │  │      │      values-lv.json
+│  │  │  │      │      values-mk.json
+│  │  │  │      │      values-ml.json
+│  │  │  │      │      values-mn.json
+│  │  │  │      │      values-mr.json
+│  │  │  │      │      values-ms.json
+│  │  │  │      │      values-my.json
+│  │  │  │      │      values-nb.json
+│  │  │  │      │      values-ne.json
+│  │  │  │      │      values-night-v8.json
+│  │  │  │      │      values-nl.json
+│  │  │  │      │      values-or.json
+│  │  │  │      │      values-pa.json
+│  │  │  │      │      values-pl.json
+│  │  │  │      │      values-port.json
+│  │  │  │      │      values-pt-rBR.json
+│  │  │  │      │      values-pt-rPT.json
+│  │  │  │      │      values-pt.json
+│  │  │  │      │      values-ro.json
+│  │  │  │      │      values-ru.json
+│  │  │  │      │      values-si.json
+│  │  │  │      │      values-sk.json
+│  │  │  │      │      values-sl.json
+│  │  │  │      │      values-small-v4.json
+│  │  │  │      │      values-sq.json
+│  │  │  │      │      values-sr.json
+│  │  │  │      │      values-sv.json
+│  │  │  │      │      values-sw.json
+│  │  │  │      │      values-sw600dp-v13.json
+│  │  │  │      │      values-ta.json
+│  │  │  │      │      values-te.json
+│  │  │  │      │      values-th.json
+│  │  │  │      │      values-tl.json
+│  │  │  │      │      values-tr.json
+│  │  │  │      │      values-uk.json
+│  │  │  │      │      values-ur.json
+│  │  │  │      │      values-uz.json
+│  │  │  │      │      values-v16.json
+│  │  │  │      │      values-v17.json
+│  │  │  │      │      values-v18.json
+│  │  │  │      │      values-v21.json
+│  │  │  │      │      values-v22.json
+│  │  │  │      │      values-v23.json
+│  │  │  │      │      values-v24.json
+│  │  │  │      │      values-v25.json
+│  │  │  │      │      values-v26.json
+│  │  │  │      │      values-v28.json
+│  │  │  │      │      values-vi.json
+│  │  │  │      │      values-w360dp-port-v13.json
+│  │  │  │      │      values-w480dp-port-v13.json
+│  │  │  │      │      values-watch-v20.json
+│  │  │  │      │      values-watch-v21.json
+│  │  │  │      │      values-xlarge-v4.json
+│  │  │  │      │      values-zh-rCN.json
+│  │  │  │      │      values-zh-rHK.json
+│  │  │  │      │      values-zh-rTW.json
+│  │  │  │      │      values-zu.json
+│  │  │  │      │      values.json
+│  │  │  │      │      
+│  │  │  │      └─single
+│  │  │  │              debug.json
+│  │  │  │              
+│  │  │  └─release
+│  │  │      └─out
+│  │  │          ├─multi-v2
+│  │  │          │      release.json
+│  │  │          │      values-af.json
+│  │  │          │      values-am.json
+│  │  │          │      values-ar.json
+│  │  │          │      values-as.json
+│  │  │          │      values-az.json
+│  │  │          │      values-b+sr+Latn.json
+│  │  │          │      values-be.json
+│  │  │          │      values-bg.json
+│  │  │          │      values-bn.json
+│  │  │          │      values-bs.json
+│  │  │          │      values-ca.json
+│  │  │          │      values-cs.json
+│  │  │          │      values-da.json
+│  │  │          │      values-de.json
+│  │  │          │      values-el.json
+│  │  │          │      values-en-rAU.json
+│  │  │          │      values-en-rCA.json
+│  │  │          │      values-en-rGB.json
+│  │  │          │      values-en-rIN.json
+│  │  │          │      values-en-rXC.json
+│  │  │          │      values-es-rUS.json
+│  │  │          │      values-es.json
+│  │  │          │      values-et.json
+│  │  │          │      values-eu.json
+│  │  │          │      values-fa.json
+│  │  │          │      values-fi.json
+│  │  │          │      values-fr-rCA.json
+│  │  │          │      values-fr.json
+│  │  │          │      values-gl.json
+│  │  │          │      values-gu.json
+│  │  │          │      values-h360dp-land-v13.json
+│  │  │          │      values-h480dp-land-v13.json
+│  │  │          │      values-h720dp-v13.json
+│  │  │          │      values-hdpi-v4.json
+│  │  │          │      values-hi.json
+│  │  │          │      values-hr.json
+│  │  │          │      values-hu.json
+│  │  │          │      values-hy.json
+│  │  │          │      values-in.json
+│  │  │          │      values-is.json
+│  │  │          │      values-it.json
+│  │  │          │      values-iw.json
+│  │  │          │      values-ja.json
+│  │  │          │      values-ka.json
+│  │  │          │      values-kk.json
+│  │  │          │      values-km.json
+│  │  │          │      values-kn.json
+│  │  │          │      values-ko.json
+│  │  │          │      values-ky.json
+│  │  │          │      values-land.json
+│  │  │          │      values-large-v4.json
+│  │  │          │      values-ldltr-v21.json
+│  │  │          │      values-lo.json
+│  │  │          │      values-lt.json
+│  │  │          │      values-lv.json
+│  │  │          │      values-mk.json
+│  │  │          │      values-ml.json
+│  │  │          │      values-mn.json
+│  │  │          │      values-mr.json
+│  │  │          │      values-ms.json
+│  │  │          │      values-my.json
+│  │  │          │      values-nb.json
+│  │  │          │      values-ne.json
+│  │  │          │      values-night-v8.json
+│  │  │          │      values-nl.json
+│  │  │          │      values-or.json
+│  │  │          │      values-pa.json
+│  │  │          │      values-pl.json
+│  │  │          │      values-port.json
+│  │  │          │      values-pt-rBR.json
+│  │  │          │      values-pt-rPT.json
+│  │  │          │      values-pt.json
+│  │  │          │      values-ro.json
+│  │  │          │      values-ru.json
+│  │  │          │      values-si.json
+│  │  │          │      values-sk.json
+│  │  │          │      values-sl.json
+│  │  │          │      values-small-v4.json
+│  │  │          │      values-sq.json
+│  │  │          │      values-sr.json
+│  │  │          │      values-sv.json
+│  │  │          │      values-sw.json
+│  │  │          │      values-sw600dp-v13.json
+│  │  │          │      values-ta.json
+│  │  │          │      values-te.json
+│  │  │          │      values-th.json
+│  │  │          │      values-tl.json
+│  │  │          │      values-tr.json
+│  │  │          │      values-uk.json
+│  │  │          │      values-ur.json
+│  │  │          │      values-uz.json
+│  │  │          │      values-v16.json
+│  │  │          │      values-v17.json
+│  │  │          │      values-v18.json
+│  │  │          │      values-v21.json
+│  │  │          │      values-v22.json
+│  │  │          │      values-v23.json
+│  │  │          │      values-v24.json
+│  │  │          │      values-v25.json
+│  │  │          │      values-v26.json
+│  │  │          │      values-v28.json
+│  │  │          │      values-vi.json
+│  │  │          │      values-w360dp-port-v13.json
+│  │  │          │      values-w480dp-port-v13.json
+│  │  │          │      values-watch-v20.json
+│  │  │          │      values-watch-v21.json
+│  │  │          │      values-xlarge-v4.json
+│  │  │          │      values-zh-rCN.json
+│  │  │          │      values-zh-rHK.json
+│  │  │          │      values-zh-rTW.json
+│  │  │          │      values-zu.json
+│  │  │          │      values.json
+│  │  │          │      
+│  │  │          └─single
+│  │  │                  release.json
+│  │  │                  
+│  │  ├─merged_shaders
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─metadata_library_dependencies_report
+│  │  │  └─release
+│  │  │          dependencies.pb
+│  │  │          
+│  │  ├─mixed_scope_dex_archive
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─navigation_json
+│  │  │  ├─debug
+│  │  │  │      navigation.json
+│  │  │  │      
+│  │  │  └─release
+│  │  │          navigation.json
+│  │  │          
+│  │  ├─packaged_manifests
+│  │  │  ├─debug
+│  │  │  │      AndroidManifest.xml
+│  │  │  │      output-metadata.json
+│  │  │  │      
+│  │  │  └─release
+│  │  │          AndroidManifest.xml
+│  │  │          output-metadata.json
+│  │  │          
+│  │  ├─processed_res
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  │          output-metadata.json
+│  │  │  │          resources-debug.ap_
+│  │  │  │          
+│  │  │  └─release
+│  │  │      └─out
+│  │  │              output-metadata.json
+│  │  │              resources-release.ap_
+│  │  │              
+│  │  ├─project_dex_archive
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  │      │  634e4adbf993227a47cd65e355cdd07bbe4f57cc9966b9acf0109fa6c9de9247_0.jar
+│  │  │  │      │  634e4adbf993227a47cd65e355cdd07bbe4f57cc9966b9acf0109fa6c9de9247_1.jar
+│  │  │  │      │  
+│  │  │  │      └─com
+│  │  │  │          └─xinyu
+│  │  │  │              └─cumtcpdaily
+│  │  │  │                      About$1.dex
+│  │  │  │                      About$2.dex
+│  │  │  │                      About$3.dex
+│  │  │  │                      About.dex
+│  │  │  │                      BuildConfig.dex
+│  │  │  │                      MainActivity$1.dex
+│  │  │  │                      MainActivity$2.dex
+│  │  │  │                      MainActivity$3.dex
+│  │  │  │                      MainActivity.dex
+│  │  │  │                      MyService$1.dex
+│  │  │  │                      MyService.dex
+│  │  │  │                      
+│  │  │  └─release
+│  │  │      └─out
+│  │  │          │  634e4adbf993227a47cd65e355cdd07bbe4f57cc9966b9acf0109fa6c9de9247_0.jar
+│  │  │          │  634e4adbf993227a47cd65e355cdd07bbe4f57cc9966b9acf0109fa6c9de9247_1.jar
+│  │  │          │  
+│  │  │          └─com
+│  │  │              └─xinyu
+│  │  │                  └─cumtcpdaily
+│  │  │                          About$1.dex
+│  │  │                          About$2.dex
+│  │  │                          About$3.dex
+│  │  │                          About.dex
+│  │  │                          BuildConfig.dex
+│  │  │                          MainActivity$1.dex
+│  │  │                          MainActivity$2.dex
+│  │  │                          MainActivity.dex
+│  │  │                          
+│  │  ├─res
+│  │  │  └─merged
+│  │  │      ├─debug
+│  │  │      │      drawable-anydpi-v21_ic_launcher_background.xml.flat
+│  │  │      │      drawable-anydpi-v24_ic_launcher_foreground.xml.flat
+│  │  │      │      drawable-hdpi_ic_launcher_background.png.flat
+│  │  │      │      drawable-ldpi_ic_launcher_background.png.flat
+│  │  │      │      drawable-mdpi_ic_launcher_background.png.flat
+│  │  │      │      drawable-xhdpi_ic_launcher_background.png.flat
+│  │  │      │      drawable-xxhdpi_ic_launcher_background.png.flat
+│  │  │      │      drawable-xxxhdpi_ic_launcher_background.png.flat
+│  │  │      │      drawable_border_white.xml.flat
+│  │  │      │      layout_activity_about.xml.flat
+│  │  │      │      layout_activity_main.xml.flat
+│  │  │      │      menu_menu.xml.flat
+│  │  │      │      mipmap-anydpi-v26_ic_launcher.xml.flat
+│  │  │      │      mipmap-anydpi-v26_ic_launcher_round.xml.flat
+│  │  │      │      mipmap-hdpi_ic_launcher.png.flat
+│  │  │      │      mipmap-hdpi_ic_launcher_round.png.flat
+│  │  │      │      mipmap-mdpi_ic_launcher.png.flat
+│  │  │      │      mipmap-mdpi_ic_launcher_round.png.flat
+│  │  │      │      mipmap-xhdpi_ic_launcher.png.flat
+│  │  │      │      mipmap-xhdpi_ic_launcher_round.png.flat
+│  │  │      │      mipmap-xxhdpi_ic_launcher.png.flat
+│  │  │      │      mipmap-xxhdpi_ic_launcher_round.png.flat
+│  │  │      │      mipmap-xxhdpi_logo_cumtcpdaily.png.flat
+│  │  │      │      mipmap-xxhdpi_logo_password.png.flat
+│  │  │      │      mipmap-xxhdpi_logo_see.png.flat
+│  │  │      │      mipmap-xxhdpi_logo_setting.png.flat
+│  │  │      │      mipmap-xxhdpi_logo_username.png.flat
+│  │  │      │      mipmap-xxxhdpi_ic_launcher.png.flat
+│  │  │      │      mipmap-xxxhdpi_ic_launcher_round.png.flat
+│  │  │      │      values-af_values-af.arsc.flat
+│  │  │      │      values-am_values-am.arsc.flat
+│  │  │      │      values-ar_values-ar.arsc.flat
+│  │  │      │      values-as_values-as.arsc.flat
+│  │  │      │      values-az_values-az.arsc.flat
+│  │  │      │      values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+│  │  │      │      values-be_values-be.arsc.flat
+│  │  │      │      values-bg_values-bg.arsc.flat
+│  │  │      │      values-bn_values-bn.arsc.flat
+│  │  │      │      values-bs_values-bs.arsc.flat
+│  │  │      │      values-ca_values-ca.arsc.flat
+│  │  │      │      values-cs_values-cs.arsc.flat
+│  │  │      │      values-da_values-da.arsc.flat
+│  │  │      │      values-de_values-de.arsc.flat
+│  │  │      │      values-el_values-el.arsc.flat
+│  │  │      │      values-en-rAU_values-en-rAU.arsc.flat
+│  │  │      │      values-en-rCA_values-en-rCA.arsc.flat
+│  │  │      │      values-en-rGB_values-en-rGB.arsc.flat
+│  │  │      │      values-en-rIN_values-en-rIN.arsc.flat
+│  │  │      │      values-en-rXC_values-en-rXC.arsc.flat
+│  │  │      │      values-es-rUS_values-es-rUS.arsc.flat
+│  │  │      │      values-es_values-es.arsc.flat
+│  │  │      │      values-et_values-et.arsc.flat
+│  │  │      │      values-eu_values-eu.arsc.flat
+│  │  │      │      values-fa_values-fa.arsc.flat
+│  │  │      │      values-fi_values-fi.arsc.flat
+│  │  │      │      values-fr-rCA_values-fr-rCA.arsc.flat
+│  │  │      │      values-fr_values-fr.arsc.flat
+│  │  │      │      values-gl_values-gl.arsc.flat
+│  │  │      │      values-gu_values-gu.arsc.flat
+│  │  │      │      values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat
+│  │  │      │      values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat
+│  │  │      │      values-h720dp-v13_values-h720dp-v13.arsc.flat
+│  │  │      │      values-hdpi-v4_values-hdpi-v4.arsc.flat
+│  │  │      │      values-hi_values-hi.arsc.flat
+│  │  │      │      values-hr_values-hr.arsc.flat
+│  │  │      │      values-hu_values-hu.arsc.flat
+│  │  │      │      values-hy_values-hy.arsc.flat
+│  │  │      │      values-in_values-in.arsc.flat
+│  │  │      │      values-is_values-is.arsc.flat
+│  │  │      │      values-it_values-it.arsc.flat
+│  │  │      │      values-iw_values-iw.arsc.flat
+│  │  │      │      values-ja_values-ja.arsc.flat
+│  │  │      │      values-ka_values-ka.arsc.flat
+│  │  │      │      values-kk_values-kk.arsc.flat
+│  │  │      │      values-km_values-km.arsc.flat
+│  │  │      │      values-kn_values-kn.arsc.flat
+│  │  │      │      values-ko_values-ko.arsc.flat
+│  │  │      │      values-ky_values-ky.arsc.flat
+│  │  │      │      values-land_values-land.arsc.flat
+│  │  │      │      values-large-v4_values-large-v4.arsc.flat
+│  │  │      │      values-ldltr-v21_values-ldltr-v21.arsc.flat
+│  │  │      │      values-lo_values-lo.arsc.flat
+│  │  │      │      values-lt_values-lt.arsc.flat
+│  │  │      │      values-lv_values-lv.arsc.flat
+│  │  │      │      values-mk_values-mk.arsc.flat
+│  │  │      │      values-ml_values-ml.arsc.flat
+│  │  │      │      values-mn_values-mn.arsc.flat
+│  │  │      │      values-mr_values-mr.arsc.flat
+│  │  │      │      values-ms_values-ms.arsc.flat
+│  │  │      │      values-my_values-my.arsc.flat
+│  │  │      │      values-nb_values-nb.arsc.flat
+│  │  │      │      values-ne_values-ne.arsc.flat
+│  │  │      │      values-night-v8_values-night-v8.arsc.flat
+│  │  │      │      values-nl_values-nl.arsc.flat
+│  │  │      │      values-or_values-or.arsc.flat
+│  │  │      │      values-pa_values-pa.arsc.flat
+│  │  │      │      values-pl_values-pl.arsc.flat
+│  │  │      │      values-port_values-port.arsc.flat
+│  │  │      │      values-pt-rBR_values-pt-rBR.arsc.flat
+│  │  │      │      values-pt-rPT_values-pt-rPT.arsc.flat
+│  │  │      │      values-pt_values-pt.arsc.flat
+│  │  │      │      values-ro_values-ro.arsc.flat
+│  │  │      │      values-ru_values-ru.arsc.flat
+│  │  │      │      values-si_values-si.arsc.flat
+│  │  │      │      values-sk_values-sk.arsc.flat
+│  │  │      │      values-sl_values-sl.arsc.flat
+│  │  │      │      values-small-v4_values-small-v4.arsc.flat
+│  │  │      │      values-sq_values-sq.arsc.flat
+│  │  │      │      values-sr_values-sr.arsc.flat
+│  │  │      │      values-sv_values-sv.arsc.flat
+│  │  │      │      values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+│  │  │      │      values-sw_values-sw.arsc.flat
+│  │  │      │      values-ta_values-ta.arsc.flat
+│  │  │      │      values-te_values-te.arsc.flat
+│  │  │      │      values-th_values-th.arsc.flat
+│  │  │      │      values-tl_values-tl.arsc.flat
+│  │  │      │      values-tr_values-tr.arsc.flat
+│  │  │      │      values-uk_values-uk.arsc.flat
+│  │  │      │      values-ur_values-ur.arsc.flat
+│  │  │      │      values-uz_values-uz.arsc.flat
+│  │  │      │      values-v16_values-v16.arsc.flat
+│  │  │      │      values-v17_values-v17.arsc.flat
+│  │  │      │      values-v18_values-v18.arsc.flat
+│  │  │      │      values-v21_values-v21.arsc.flat
+│  │  │      │      values-v22_values-v22.arsc.flat
+│  │  │      │      values-v23_values-v23.arsc.flat
+│  │  │      │      values-v24_values-v24.arsc.flat
+│  │  │      │      values-v25_values-v25.arsc.flat
+│  │  │      │      values-v26_values-v26.arsc.flat
+│  │  │      │      values-v28_values-v28.arsc.flat
+│  │  │      │      values-vi_values-vi.arsc.flat
+│  │  │      │      values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat
+│  │  │      │      values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat
+│  │  │      │      values-watch-v20_values-watch-v20.arsc.flat
+│  │  │      │      values-watch-v21_values-watch-v21.arsc.flat
+│  │  │      │      values-xlarge-v4_values-xlarge-v4.arsc.flat
+│  │  │      │      values-zh-rCN_values-zh-rCN.arsc.flat
+│  │  │      │      values-zh-rHK_values-zh-rHK.arsc.flat
+│  │  │      │      values-zh-rTW_values-zh-rTW.arsc.flat
+│  │  │      │      values-zu_values-zu.arsc.flat
+│  │  │      │      values_values.arsc.flat
+│  │  │      │      xml_network_security_config.xml.flat
+│  │  │      │      
+│  │  │      └─release
+│  │  │              drawable-anydpi-v21_ic_launcher_background.xml.flat
+│  │  │              drawable-anydpi-v24_ic_launcher_foreground.xml.flat
+│  │  │              drawable-hdpi_ic_launcher_background.png.flat
+│  │  │              drawable-ldpi_ic_launcher_background.png.flat
+│  │  │              drawable-mdpi_ic_launcher_background.png.flat
+│  │  │              drawable-xhdpi_ic_launcher_background.png.flat
+│  │  │              drawable-xxhdpi_ic_launcher_background.png.flat
+│  │  │              drawable-xxxhdpi_ic_launcher_background.png.flat
+│  │  │              drawable_border_white.xml.flat
+│  │  │              layout_activity_about.xml.flat
+│  │  │              layout_activity_main.xml.flat
+│  │  │              menu_menu.xml.flat
+│  │  │              mipmap-anydpi-v26_ic_launcher.xml.flat
+│  │  │              mipmap-anydpi-v26_ic_launcher_round.xml.flat
+│  │  │              mipmap-hdpi_ic_launcher.png.flat
+│  │  │              mipmap-hdpi_ic_launcher_round.png.flat
+│  │  │              mipmap-mdpi_ic_launcher.png.flat
+│  │  │              mipmap-mdpi_ic_launcher_round.png.flat
+│  │  │              mipmap-xhdpi_ic_launcher.png.flat
+│  │  │              mipmap-xhdpi_ic_launcher_round.png.flat
+│  │  │              mipmap-xxhdpi_ic_launcher.png.flat
+│  │  │              mipmap-xxhdpi_ic_launcher_round.png.flat
+│  │  │              mipmap-xxhdpi_logo_cumtcpdaily.png.flat
+│  │  │              mipmap-xxhdpi_logo_password.png.flat
+│  │  │              mipmap-xxhdpi_logo_see.png.flat
+│  │  │              mipmap-xxhdpi_logo_setting.png.flat
+│  │  │              mipmap-xxhdpi_logo_username.png.flat
+│  │  │              mipmap-xxxhdpi_ic_launcher.png.flat
+│  │  │              mipmap-xxxhdpi_ic_launcher_round.png.flat
+│  │  │              values-af_values-af.arsc.flat
+│  │  │              values-am_values-am.arsc.flat
+│  │  │              values-ar_values-ar.arsc.flat
+│  │  │              values-as_values-as.arsc.flat
+│  │  │              values-az_values-az.arsc.flat
+│  │  │              values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+│  │  │              values-be_values-be.arsc.flat
+│  │  │              values-bg_values-bg.arsc.flat
+│  │  │              values-bn_values-bn.arsc.flat
+│  │  │              values-bs_values-bs.arsc.flat
+│  │  │              values-ca_values-ca.arsc.flat
+│  │  │              values-cs_values-cs.arsc.flat
+│  │  │              values-da_values-da.arsc.flat
+│  │  │              values-de_values-de.arsc.flat
+│  │  │              values-el_values-el.arsc.flat
+│  │  │              values-en-rAU_values-en-rAU.arsc.flat
+│  │  │              values-en-rCA_values-en-rCA.arsc.flat
+│  │  │              values-en-rGB_values-en-rGB.arsc.flat
+│  │  │              values-en-rIN_values-en-rIN.arsc.flat
+│  │  │              values-en-rXC_values-en-rXC.arsc.flat
+│  │  │              values-es-rUS_values-es-rUS.arsc.flat
+│  │  │              values-es_values-es.arsc.flat
+│  │  │              values-et_values-et.arsc.flat
+│  │  │              values-eu_values-eu.arsc.flat
+│  │  │              values-fa_values-fa.arsc.flat
+│  │  │              values-fi_values-fi.arsc.flat
+│  │  │              values-fr-rCA_values-fr-rCA.arsc.flat
+│  │  │              values-fr_values-fr.arsc.flat
+│  │  │              values-gl_values-gl.arsc.flat
+│  │  │              values-gu_values-gu.arsc.flat
+│  │  │              values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat
+│  │  │              values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat
+│  │  │              values-h720dp-v13_values-h720dp-v13.arsc.flat
+│  │  │              values-hdpi-v4_values-hdpi-v4.arsc.flat
+│  │  │              values-hi_values-hi.arsc.flat
+│  │  │              values-hr_values-hr.arsc.flat
+│  │  │              values-hu_values-hu.arsc.flat
+│  │  │              values-hy_values-hy.arsc.flat
+│  │  │              values-in_values-in.arsc.flat
+│  │  │              values-is_values-is.arsc.flat
+│  │  │              values-it_values-it.arsc.flat
+│  │  │              values-iw_values-iw.arsc.flat
+│  │  │              values-ja_values-ja.arsc.flat
+│  │  │              values-ka_values-ka.arsc.flat
+│  │  │              values-kk_values-kk.arsc.flat
+│  │  │              values-km_values-km.arsc.flat
+│  │  │              values-kn_values-kn.arsc.flat
+│  │  │              values-ko_values-ko.arsc.flat
+│  │  │              values-ky_values-ky.arsc.flat
+│  │  │              values-land_values-land.arsc.flat
+│  │  │              values-large-v4_values-large-v4.arsc.flat
+│  │  │              values-ldltr-v21_values-ldltr-v21.arsc.flat
+│  │  │              values-lo_values-lo.arsc.flat
+│  │  │              values-lt_values-lt.arsc.flat
+│  │  │              values-lv_values-lv.arsc.flat
+│  │  │              values-mk_values-mk.arsc.flat
+│  │  │              values-ml_values-ml.arsc.flat
+│  │  │              values-mn_values-mn.arsc.flat
+│  │  │              values-mr_values-mr.arsc.flat
+│  │  │              values-ms_values-ms.arsc.flat
+│  │  │              values-my_values-my.arsc.flat
+│  │  │              values-nb_values-nb.arsc.flat
+│  │  │              values-ne_values-ne.arsc.flat
+│  │  │              values-night-v8_values-night-v8.arsc.flat
+│  │  │              values-nl_values-nl.arsc.flat
+│  │  │              values-or_values-or.arsc.flat
+│  │  │              values-pa_values-pa.arsc.flat
+│  │  │              values-pl_values-pl.arsc.flat
+│  │  │              values-port_values-port.arsc.flat
+│  │  │              values-pt-rBR_values-pt-rBR.arsc.flat
+│  │  │              values-pt-rPT_values-pt-rPT.arsc.flat
+│  │  │              values-pt_values-pt.arsc.flat
+│  │  │              values-ro_values-ro.arsc.flat
+│  │  │              values-ru_values-ru.arsc.flat
+│  │  │              values-si_values-si.arsc.flat
+│  │  │              values-sk_values-sk.arsc.flat
+│  │  │              values-sl_values-sl.arsc.flat
+│  │  │              values-small-v4_values-small-v4.arsc.flat
+│  │  │              values-sq_values-sq.arsc.flat
+│  │  │              values-sr_values-sr.arsc.flat
+│  │  │              values-sv_values-sv.arsc.flat
+│  │  │              values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+│  │  │              values-sw_values-sw.arsc.flat
+│  │  │              values-ta_values-ta.arsc.flat
+│  │  │              values-te_values-te.arsc.flat
+│  │  │              values-th_values-th.arsc.flat
+│  │  │              values-tl_values-tl.arsc.flat
+│  │  │              values-tr_values-tr.arsc.flat
+│  │  │              values-uk_values-uk.arsc.flat
+│  │  │              values-ur_values-ur.arsc.flat
+│  │  │              values-uz_values-uz.arsc.flat
+│  │  │              values-v16_values-v16.arsc.flat
+│  │  │              values-v17_values-v17.arsc.flat
+│  │  │              values-v18_values-v18.arsc.flat
+│  │  │              values-v21_values-v21.arsc.flat
+│  │  │              values-v22_values-v22.arsc.flat
+│  │  │              values-v23_values-v23.arsc.flat
+│  │  │              values-v24_values-v24.arsc.flat
+│  │  │              values-v25_values-v25.arsc.flat
+│  │  │              values-v26_values-v26.arsc.flat
+│  │  │              values-v28_values-v28.arsc.flat
+│  │  │              values-vi_values-vi.arsc.flat
+│  │  │              values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat
+│  │  │              values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat
+│  │  │              values-watch-v20_values-watch-v20.arsc.flat
+│  │  │              values-watch-v21_values-watch-v21.arsc.flat
+│  │  │              values-xlarge-v4_values-xlarge-v4.arsc.flat
+│  │  │              values-zh-rCN_values-zh-rCN.arsc.flat
+│  │  │              values-zh-rHK_values-zh-rHK.arsc.flat
+│  │  │              values-zh-rTW_values-zh-rTW.arsc.flat
+│  │  │              values-zu_values-zu.arsc.flat
+│  │  │              values_values.arsc.flat
+│  │  │              xml_network_security_config.xml.flat
+│  │  │              
+│  │  ├─runtime_symbol_list
+│  │  │  ├─debug
+│  │  │  │      R.txt
+│  │  │  │      
+│  │  │  └─release
+│  │  │          R.txt
+│  │  │          
+│  │  ├─sdk_dependency_data
+│  │  │  └─release
+│  │  │          sdkDependencyData.pb
+│  │  │          
+│  │  ├─sub_project_dex_archive
+│  │  │  ├─debug
+│  │  │  │  └─out
+│  │  │  └─release
+│  │  │      └─out
+│  │  ├─symbol_list_with_package_name
+│  │  │  ├─debug
+│  │  │  │      package-aware-r.txt
+│  │  │  │      
+│  │  │  └─release
+│  │  │          package-aware-r.txt
+│  │  │          
+│  │  └─validate_signing_config
+│  │      ├─debug
+│  │      └─release
+│  ├─outputs
+│  │  ├─apk
+│  │  │  └─debug
+│  │  │          app-debug.apk
+│  │  │          output-metadata.json
+│  │  │          
+│  │  ├─logs
+│  │  │      manifest-merger-debug-report.txt
+│  │  │      manifest-merger-release-report.txt
+│  │  │      
+│  │  └─sdk-dependencies
+│  │      └─release
+│  │              sdkDependencies.txt
+│  │              
+│  ├─reports
+│  │      lint-results-release-fatal.html
+│  │      lint-results-release-fatal.xml
+│  │      
+│  └─tmp
+│      ├─compileDebugJavaWithJavac
+│      │      source-classes-mapping.txt
+│      │      
+│      └─compileReleaseJavaWithJavac
+│              source-classes-mapping.txt
+│              
+├─libs
+├─release
+│      app-release.apk
+│      output-metadata.json
+│      
+└─src
+    ├─androidTest
+    │  └─java
+    │      └─com
+    │          └─xinyu
+    │              └─cumtcpdaily
+    │                      ExampleInstrumentedTest.java
+    │                      
+    ├─main
+    │  │  AndroidManifest.xml
+    │  │  
+    │  ├─java
+    │  │  └─com
+    │  │      └─xinyu
+    │  │          └─cumtcpdaily
+    │  │                  About.java
+    │  │                  MainActivity.java
+    │  │                  MyService.java
+    │  │                  
+    │  └─res
+    │      ├─drawable
+    │      │      border_white.xml
+    │      │      ic_launcher_background.xml
+    │      │      
+    │      ├─drawable-v24
+    │      │      ic_launcher_foreground.xml
+    │      │      
+    │      ├─layout
+    │      │      activity_about.xml
+    │      │      activity_main.xml
+    │      │      
+    │      ├─menu
+    │      │      menu.xml
+    │      │      
+    │      ├─mipmap-anydpi-v26
+    │      │      ic_launcher.xml
+    │      │      ic_launcher_round.xml
+    │      │      
+    │      ├─mipmap-hdpi
+    │      │      ic_launcher.png
+    │      │      ic_launcher_round.png
+    │      │      
+    │      ├─mipmap-mdpi
+    │      │      ic_launcher.png
+    │      │      ic_launcher_round.png
+    │      │      
+    │      ├─mipmap-xhdpi
+    │      │      ic_launcher.png
+    │      │      ic_launcher_round.png
+    │      │      
+    │      ├─mipmap-xxhdpi
+    │      │      ic_launcher.png
+    │      │      ic_launcher_round.png
+    │      │      logo_cumtcpdaily.png
+    │      │      logo_password.png
+    │      │      logo_see.png
+    │      │      logo_setting.png
+    │      │      logo_username.png
+    │      │      
+    │      ├─mipmap-xxxhdpi
+    │      │      ic_launcher.png
+    │      │      ic_launcher_round.png
+    │      │      
+    │      ├─values
+    │      │      colors.xml
+    │      │      strings.xml
+    │      │      themes.xml
+    │      │      
+    │      ├─values-night
+    │      │      themes.xml
+    │      │      
+    │      └─xml
+    │              network_security_config.xml
+    │              
+    └─test
+        └─java
+            └─com
+                └─xinyu
+                    └─cumtcpdaily
+                            ExampleUnitTest.java
+                            

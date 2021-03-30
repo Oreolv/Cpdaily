@@ -1,0 +1,8 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@mipmap/logo_setting"
+        android:title="设置"
+        app:showAsAction="always" />
+</menu>

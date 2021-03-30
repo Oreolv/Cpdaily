@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>校园网</item>
+        <item>移动</item>
+        <item>联通</item>
+        <item>电信</item>
+    </string-array>
+</resources>

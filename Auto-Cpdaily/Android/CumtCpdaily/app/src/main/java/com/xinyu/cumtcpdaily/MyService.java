@@ -15,6 +15,9 @@ import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.Calendar;
 import java.util.TimeZone;
 
@@ -23,6 +26,8 @@ public class MyService extends Service{
     public static final String CHANNEL_NAME = "com.xinyu.CumtCpdaily";
     private String SP_username = "sp_username";
     private String SP_password = "sp_password";
+    private String SP_address = "sp_address";
+    private String SP_school = "0";
     private SharedPreferences pref;
     private SharedPreferences.Editor editor;
     private int notifyId = (int) System.currentTimeMillis();
@@ -92,13 +97,24 @@ public class MyService extends Service{
         cal.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
         String username = pref.getString(SP_username, "");
         String password = pref.getString(SP_password, "");
+        String address = pref.getString(SP_address, "");
+        Long school = pref.getLong(SP_school,0);
+        JSONObject params = new JSONObject();
+        try {
+            params.put("username", username);
+            params.put("password", password);
+            params.put("school", school);
+            params.put("address", address);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         minute = cal.get(Calendar.MINUTE);
         if (cal.get(Calendar.AM_PM) == 0)
             hour = cal.get(Calendar.HOUR);
         else
             hour = cal.get(Calendar.HOUR)+12;
         if(hour==12 | hour ==13){
-            mainActivity.senda(username,password,"submit");
+            mainActivity.senda(params,"submit");
             System.out.println("submit");
         }
     }
@@ -108,16 +124,27 @@ public class MyService extends Service{
         minute = cal.get(Calendar.MINUTE);
         String username = pref.getString(SP_username, "");
         String password = pref.getString(SP_password, "");
+        String address = pref.getString(SP_address, "");
+        Long school = pref.getLong(SP_school,0);
+        JSONObject params = new JSONObject();
+        try {
+            params.put("username", username);
+            params.put("password", password);
+            params.put("school", school);
+            params.put("address", address);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         if (cal.get(Calendar.AM_PM) == 0)
             hour = cal.get(Calendar.HOUR);
         else
             hour = cal.get(Calendar.HOUR)+12;
         if(hour==21&&minute>30){
-            mainActivity.senda(username,password,"sign");
+            mainActivity.senda(params,"sign");
             System.out.println("sign");
         }
         if (hour==22){
-            mainActivity.senda(username,password,"sign");
+            mainActivity.senda(params,"sign");
             System.out.println("sign");
         }
     }

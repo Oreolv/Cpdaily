@@ -16,28 +16,40 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
     private SharedPreferences pref;
     private SharedPreferences.Editor editor;
     private CheckBox rememberBox;
-    private EditText usernameText, passwordText;
+    private EditText usernameText, passwordText, addressText;
     private String TAG = "message";
     private String SP_username = "sp_username";
     private String SP_password = "sp_password";
+    private String SP_address = "sp_address";
+    private String SP_school = "0";
     private String SP_remember_exit = "sp_remember_exit";
     private String SP_remember_send = "sp_remember_send";
     private String SP_remember_pwd = "sp_remember_psd";
@@ -48,10 +60,13 @@ public class MainActivity extends AppCompatActivity {
     private Boolean exitChecked;
     private Boolean sendChecked;
     private TextView activateText;
+    private Spinner schoolSpinner;
     private ProgressBar progressBar;
     private String type;
     boolean isRemember,isAutoexit,isAutosend;
     String line;
+    private ArrayAdapter<String> adapter;
+    private static final String[] spinnerList={"是","否"};
 
     @SuppressLint("NewApi")
     @Override
@@ -89,8 +104,12 @@ public class MainActivity extends AppCompatActivity {
         if (isRemember) {
             String username = pref.getString(SP_username, "");
             String password = pref.getString(SP_password, "");
+            String address = pref.getString(SP_address, "");
+            Long school = pref.getLong(SP_school,0);
             usernameText.setText(username);
             passwordText.setText(password);
+            schoolSpinner.setSelection(Math.toIntExact(school),true);
+            addressText.setText(address);
             rememberBox.setChecked(true);
         }
 
@@ -113,7 +132,10 @@ public class MainActivity extends AppCompatActivity {
         pref = PreferenceManager.getDefaultSharedPreferences(this);
         usernameText = (EditText) findViewById(R.id.username);
         passwordText = (EditText) findViewById(R.id.password);
+        addressText = (EditText) findViewById(R.id.address);
         rememberBox = (CheckBox) findViewById(R.id.remember);
+
+        schoolSpinner = (Spinner) findViewById(R.id.schoolSpinner);
 
         sendButton = (Button) findViewById(R.id.send);
 
@@ -126,16 +148,32 @@ public class MainActivity extends AppCompatActivity {
         isRemember = pref.getBoolean(SP_remember_pwd, false);
         isAutoexit = pref.getBoolean(SP_remember_exit, false);
         isAutosend = pref.getBoolean(SP_remember_send, false);
+
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,spinnerList);
+
+        //设置下拉列表的风格
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //将adapter 添加到spinner中
+        schoolSpinner.setAdapter(adapter);
+        //添加事件Spinner事件监听
+//        schoolSpinner.setOnItemSelectedListener(new SpinnerSelectedListener());
+        //设置默认值
+        schoolSpinner.setVisibility(View.VISIBLE);
     }
 
-    public void senda(String username,String password,String type){
+    public void senda(JSONObject params,String type){
         try {
             String line;
-            String path = "http://cpdaily.xinyu.ink/" + type + "/" + username + "/" + password;
+            String path = "http://cpdaily.xinyu.ink/" + type;
             URL url = new URL(path);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setConnectTimeout(5000);
+            conn.setRequestProperty("Content-Type", "application/json");
+            try(OutputStream os = conn.getOutputStream()) {
+                byte[] input = params.toString().getBytes("utf-8");
+                os.write(input, 0, input.length);
+            }
             InputStream is = conn.getInputStream();//获取输入流
             InputStreamReader isr = new InputStreamReader(is, "utf-8");//字节转字符，字符集是utf-8
             BufferedReader bufferedReader = new BufferedReader(isr);//通过BufferedReader可以读取一行字符串
@@ -159,11 +197,16 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setVisibility(View.VISIBLE);
         String username = usernameText.getText().toString();
         String password = passwordText.getText().toString();
-
+        String address = addressText.getText().toString();
+        String school = schoolSpinner.getSelectedItem().toString();
+        System.out.println(school);
+        Long schoolID = schoolSpinner.getSelectedItemId();
         editor = pref.edit();
         if (rememberBox.isChecked()) {
             editor.putString(SP_username, username);
             editor.putString(SP_password, password);
+            editor.putString(SP_address, address);
+            editor.putLong(SP_school,schoolID);
             editor.putBoolean(SP_remember_pwd, true);
         } else {
             editor.apply();
@@ -174,12 +217,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-
-                    String path = "http://cpdaily.xinyu.ink/" + type + "/" + username + "/" + password;
+                    String path = "http://127.0.0.1:7920/" + type;
+                    JSONObject params = new JSONObject();
+                    params.put("username", username);
+                    params.put("password", password);
+                    params.put("school", school);
+                    params.put("address", address);
                     URL url = new URL(path);
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setRequestMethod("POST");
                     conn.setConnectTimeout(5000);
+                    conn.setRequestProperty("Content-Type", "application/json");
+                    // POST请求
+                    try(OutputStream os = conn.getOutputStream()) {
+                        byte[] input = params.toString().getBytes("utf-8");
+                        System.out.println(params);
+                        os.write(input, 0, input.length);
+                    }
                     InputStream is = conn.getInputStream();
                     InputStreamReader isr = new InputStreamReader(is, "utf-8");
                     BufferedReader bufferedReader = new BufferedReader(isr);
